@@ -23,12 +23,12 @@ function Article_item({image}){
         <div className="temoignage-items" style={{backgroundImage : `url(${image})`}}>
             <div className="shadow">
                 <div className="titre">
-                    Je suis dans ville 
+                    Titre de l{"'"}article
                 </div>
                 <div className="auteur">
                    <ul>
                     <li>
-                        daniel Seppo Eke
+                       Nom de l{"'"}auteur
                     </li>
                    </ul>
                 </div>

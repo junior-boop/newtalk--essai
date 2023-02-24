@@ -41,7 +41,7 @@ function Soutient_Page() {
                         <img src="./images/soutenons.webp" alt="" height={'100%'} />
                     </div>
                     <div className="right">
-                        <h1>Aidons les a Sourire</h1>
+                        <h1>Aidons les à Sourire</h1>
                     </div>
                     <div className="bas">
                         <Button style={{color : 'white'}} >
