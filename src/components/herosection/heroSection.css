@@ -1,0 +1,48 @@
+ .hero{
+    background-color: black;
+    height: 100vh;
+}
+
+
+.container {
+    width: 80%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.hero-content{
+    display: flex;
+    align-items: center;
+    gap: 64px;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.hero_image {
+    height: 100%;
+}
+.hero_image > div {
+    height: 100%;
+}
+
+.hero-message{
+    width: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.hero-message .titre{
+    font-size: 76px;
+    font-weight: 800;
+    line-height: 1;
+    margin: 0;
+    font-family: Britannic;
+    color: white;
+}
+.hero-message h2{
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 1;
+    margin: 24px 0;
+}

@@ -1,0 +1,73 @@
+.citation{
+    background-color: #fff;
+    height: 700px;
+}
+
+.citation .citation-content{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    
+    
+}
+
+.citation-message{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.citation-message * {
+   color: black;  
+}
+.citation-message .cite  {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+}
+.citation-message .cite + .cite {
+   margin-top: 24px;
+}
+
+
+.citation-message  h2{
+
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 800;
+    
+    margin-bottom: 0;
+}
+
+.citation-message  p{
+
+    font-size: 24px;
+    font-style: italic;
+    text-align: center;
+    padding:36px;
+    margin: 0 150px;
+    line-height: 1;
+    
+    
+}
+
+.citation-by{
+
+    display: contents;
+}
+
+.citation-by > .image{
+    border: 1px solid gray;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: gainsboro ;
+    
+}
+.citation-by > P{
+    font-weight: 800;
+}
+

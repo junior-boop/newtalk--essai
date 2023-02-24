@@ -1,0 +1,72 @@
+.sensibilisation .vide {
+    width: 100%;
+    height: 72px;
+}
+
+
+.sensibilisation section {
+    padding:92px 0;
+}
+.sensibilisation section .grid_4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+}
+
+.article-items{
+    background-color:rgb(87, 81, 81) ;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    align-items: flex-end;
+    text-decoration: none;
+    position: relative;
+}
+
+.article-items.large{
+    grid-column: 1/3;
+}
+
+.article-items .shadow{
+   background-image: linear-gradient(0, black, transparent);
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   padding: 24px;
+   width: 100%;
+   height: 50%;
+}
+.article-items .shadow .titre{
+    width: 100%;
+    max-width: 300px;
+  font-size: 24px;
+  font-family: Britannic;
+  color: white;
+}
+.article-items .shadow .auteur{
+    width: 100%;
+    max-width: 300px;
+  font-size: 16px;
+  font-weight: 200;
+  color: white;
+}
+.article-items .shadow .auteur ul{
+  margin: 2px;
+  padding-left: 17px;
+}
+
+.article-items .lirePlus {
+    position: absolute;
+    bottom: 24px;
+    right : 24px;
+
+    padding: 8px 24px;
+    text-decoration: none;
+    border-radius: 20px;
+    background-color: #ff0055;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 500;
+    color: white;
+}

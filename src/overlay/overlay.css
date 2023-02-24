@@ -1,0 +1,154 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 90;
+    overflow-y: scroll;
+}
+
+
+
+.soutient {
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    -webkit-clip-path: circle(5.3% at 90% 4%);
+    clip-path: circle(5.3% at 90% 4%);
+    transition: all .5s ease-in-out;
+}
+
+.soutient.visible {
+    -webkit-clip-path: circle(252.3% at 81% 2%);
+    clip-path: circle(252.3% at 81% 2%);
+}
+
+
+.soutient * {
+    color: black;
+}
+
+.soutient .vide {
+    width: 100%;
+    height: 72px;
+    background-color: white;
+}
+.soutient .content {
+    width: 100%;
+    background-color: white;
+}
+
+.content .banniere .container {
+    display: flex;
+    position : relative;
+    justify-content: center;
+}
+
+.content .banniere .container > * {
+    flex: 1;
+}
+
+.content .banniere .left ,
+.content .banniere .right {
+    display: flex;
+    align-items: center;
+
+}
+.content .banniere .left *,
+.content .banniere .right *{
+    color: white;
+    font-size: 62px;
+    font-family: Britannic;
+}
+
+.content .banniere .right * {
+    width: 100%;
+    text-align: right;
+}
+.content .banniere .bas {
+    position: absolute;
+    bottom: 0;
+    height: 72px;
+}
+
+.content .nous .texte {
+    width: 70%;
+    margin : 92px auto;
+
+}
+.content .nous .texte p {
+   text-align: justify;
+}
+.content .nous .titre h1 {
+    text-align: center;
+    padding-bottom: 24px;
+}
+
+.content .nous h1, 
+.content .nous h2 {
+    font-family: Britannic;
+}
+
+.partenaria {
+    width: 100%;
+    background-color: #f3f3f3;
+    padding: 86px 0;
+}
+.partenaria h1{
+   font-family: Britannic;
+}
+.partenaria .container{
+    display: flex;
+    align-items: center;
+    gap: 18px;
+}
+.partenaria .cadre{
+    flex: 1;
+    height: 500px;
+}
+.partenaria .cellule{
+    background-color: black;
+}
+.partenaria .cellule .haut{
+    height: calc(100% - 72px);
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+}
+
+
+.partenaria .cellule .bas{
+    height:  72px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.partenaria .cellule .btn_bas{
+    height:  40px;
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff0055;
+    border-radius: 50px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+
+.partenaria .cellule .haut span {
+    font-family: Britannic;
+    font-size: 24px;
+    padding: 24px;
+    background-image: linear-gradient(0deg, black, transparent);
+    color: white;
+}
+
+.content .partenaire * {
+    color : white
+}

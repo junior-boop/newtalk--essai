@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+}
+
+.form{
+    display: flex;
+    gap: 16px;
+}
+
+.form > .left{
+    margin-top: 12px;
+    width: 300px;
+}
+.form > .right{
+    margin-top: 15px;
+    width: 300px;
+}
+
+.input > select {
+    width: 300px;
+    display: block;
+    padding: 7px 12px;
+    outline: 1px solid transparent;
+}
+
+.right > .radio{
+    display: inline-flex;
+    justify-content: center;
+}
+
+.right > .inputreduit {
+    width: 300px;
+    display: inline-flex; 
+    justify-content: space-between;
+    gap: 12px;
+}
+
+.radio > div .input {
+    display: inline-block
+}
+
+.bouton{
+    display: flex;
+    gap: 18px;
+    align-items: center;
+    width: 50%;
+}
+
+.inputTypeRadio {
+    display: flex;
+    padding: 14px 0;
+    width: 100%;
+    gap: 12px;
+}
+
+.inputTypeRadio > label {
+    text-transform: uppercase;
+}

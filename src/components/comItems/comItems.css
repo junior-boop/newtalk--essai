@@ -1,0 +1,17 @@
+
+.comitems{
+
+    height: 250px;
+    background-color: rgb(142, 169, 160);
+
+}
+
+
+.comitems > .container {
+
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+
+}
+
