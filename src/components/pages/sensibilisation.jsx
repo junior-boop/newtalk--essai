@@ -64,7 +64,7 @@ function Article_item({image, large, url = ''}){
                 <div className="auteur">
                    <ul>
                     <li>
-                        daniel Seppo Eke
+                        Nom de l'auteur
                     </li>
                    </ul>
                 </div>
